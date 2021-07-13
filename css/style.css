@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+.logo{
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+    height:50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body{
+    /* background-image: linear-gradient(rgb(253, 253, 253),rgb(245, 96, 220)); */
+    background-image: linear-gradient(rgb(253, 253, 253),rgb(245, 96, 220));
+    height: 100vh;
+    /* background-color: rgb(135, 184, 241); */
+}
+.container{
+    background: linear-gradient(rgb(233, 207, 247),rgb(210, 124, 250));
+    border-radius: 12px;
+    max-width: 900px;
+    margin:auto;
+    margin-top: 27px;
+    border: 2px solid rgb(190, 79, 190);
+    background-color: rgb(235, 100, 100);
+    height: 60vh;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+.message{
+    background-color: antiquewhite;
+    width: 28%;
+    padding: 5px;
+    padding-left: 12px;
+    margin: 17px 12px;
+    border: 2px solid gold;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.left{
+    float: left;
+    clear: both;
+    
+}
+.right{
+    float: right;
+    clear: both;
+}
+.middle{
+    float: left;
+    clear: both;
+    font-size: 16px;
+    /* margin-left: 365px; */
+    margin-left: 40%;
+    margin-top: 10px;
+    
+    
+    font-family: 'Bitter', serif;
+}
+
+#sendcontainer{
+    display: block;
+    margin: auto;
+    max-width: 900px;
+    text-align: center;
+    /* padding-left: 0px; */ 
+}
+#messageINP{
+    width:90%;
+    border-radius: 5px;
+    height: 30px;
+}
+.btn{
+    background-color: rgb(208, 112, 228);
+    border-radius: 5px;
+    color: rgb(197, 5, 47);
+    font-size: 20px;
+    border: 3px solid violet;
+    width: 70px;
+    /* margin-top: 10px; */
+    height:36px;
+}
+.btn :hover{
+    border-radius: 20px;
+    color: yellow;
+}
