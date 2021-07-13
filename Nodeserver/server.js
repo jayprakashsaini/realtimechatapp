@@ -4,6 +4,7 @@ const path = require('path');
 const app = express();
 const server  = require('http').Server(app);
 const io = require('socket.io')(server);
+const port = process.env.PORT || 600;
 
 app.use(express.static(path.join(__dirname,"../")))
 
@@ -31,4 +32,4 @@ io.on('connection',socket=>{
 // app.listen(800,()=>{
 //     console.log("server is started")
 // })
-server.listen(600);
+server.listen(port);
